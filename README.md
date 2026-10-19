@@ -1,8 +1,8 @@
-# The Cistarelli cipher letter of 25 July 1520: a first keyless reading
+# The Cistarelli cipher letter of 25 July 1520: a first connected reading
 
 **Alfonso Cistarelli, at Eger, to Cardinal Ippolito I d'Este, 25 July 1520.** Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137; Hungarian National Archives DF 294959). A letter in Italian with a passage of 24 lines in a cipher of two-digit figures and letter signs, set inside clear text.
 
-> **First keyless reading, version 0.1 (19 October 2026), partial.**
+> **First connected reading, version 0.1 (19 October 2026), partial.** The key was recovered from the ciphertext alone (no key from the time is known). Daniel Bourdeau's earlier ciphertext-only attempt gave a partial key and phrase fragments; our key, found independently, agrees with his on 16 of his 20 values. What is new here is the connected reading of the passage, its sense, and the verifier check.
 >
 > No key and no decipherment of this cipher is known, from the time or since. The key here was recovered from the cipher text alone. About a tenth to a seventh of the cipher groups are probably still misread, and the reading is partial: some stretches give Italian words and phrases, others do not yet read.
 >

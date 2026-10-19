@@ -1,6 +1,6 @@
 # Cistarelli to Ippolito I d'Este, Eger, 25 July 1520, f. 1v: the reading, version 0.1 (partial)
 
-**First keyless reading, version 0.1 (19 October 2026), partial.** Not a decipherment: no key from the time is known, and an estimated 10–15 % of the cipher groups are still misread (see the [README](../README.md)).
+**First connected reading, version 0.1 (19 October 2026), partial.** Not a decipherment: no key from the time is known, and an estimated 10–15 % of the cipher groups are still misread (see the [README](../README.md)).
 
 Three layers, kept apart:
 
