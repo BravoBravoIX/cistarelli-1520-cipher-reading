@@ -1,6 +1,6 @@
 # The Cistarelli cipher letter of 25 July 1520: a first connected reading
 
-[![DOI](https://zenodo.org/badge/DOI/with.svg)](https://doi.org/with)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23471133.svg)](https://doi.org/10.5281/zenodo.23471133)
 
 **Alfonso Cistarelli, at Eger, to Cardinal Ippolito I d'Este, 25 July 1520.** Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137; Hungarian National Archives DF 294959). A letter in Italian with a passage of 24 lines in a cipher of two-digit figures and letter signs, set inside clear text.
 
@@ -114,4 +114,4 @@ Prepared by Brett Burford, October 2026. Corrections and better images are welco
 
 ## How to cite
 
-Burford, B. (2026). The Cistarelli cipher letter of 25 July 1520: a first connected reading. Zenodo. https://doi.org/with (this DOI always points to the latest version).
+Burford, B. (2026). The Cistarelli cipher letter of 25 July 1520: a first connected reading. Zenodo. https://doi.org/10.5281/zenodo.23471133 (this DOI always points to the latest version).
