@@ -1,0 +1,156 @@
+{
+ "format": "substitution-key/1",
+ "letter": "Alfonso Cistarelli (Eger) to Ippolito I d'Este, 25 July 1520; Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137)",
+ "key": "fit-only",
+ "note": "Homophonic key recovered from random starts by simulated annealing with the held-out block (cipher tokens 184-313, 0-based, end exclusive) left out of the fit (seed 101; seeds 102 and 104 and a GPU annealer, seed 103, reach the same score). This is the key the verifier judged. Signs g'oh and x have no value in it.",
+ "plaintext_alphabet": "abcdefghilmnopqrstuxz (u also for v; i also for j)",
+ "table": {
+  "0": {
+   "v": "e"
+  },
+  "05": {
+   "v": "i"
+  },
+  "06": {
+   "v": "i"
+  },
+  "10": {
+   "v": "g"
+  },
+  "15": {
+   "v": "c"
+  },
+  "2": {
+   "v": "o"
+  },
+  "20": {
+   "v": "s"
+  },
+  "25": {
+   "v": "e"
+  },
+  "30": {
+   "v": "f"
+  },
+  "35": {
+   "v": "r"
+  },
+  "40": {
+   "v": "h"
+  },
+  "45": {
+   "v": "i"
+  },
+  "5": {
+   "v": "e"
+  },
+  "55": {
+   "v": "l"
+  },
+  "6": {
+   "v": "l"
+  },
+  "60": {
+   "v": "d"
+  },
+  "65": {
+   "v": "n"
+  },
+  "7": {
+   "v": "l"
+  },
+  "70": {
+   "v": "o"
+  },
+  "75": {
+   "v": "p"
+  },
+  "80": {
+   "v": "q"
+  },
+  "84": {
+   "v": "r"
+  },
+  "85": {
+   "v": "r"
+  },
+  "86": {
+   "v": "a"
+  },
+  "88": {
+   "v": "a"
+  },
+  "9": {
+   "v": "i"
+  },
+  "90": {
+   "v": "s"
+  },
+  "95": {
+   "v": "t"
+  },
+  "96": {
+   "v": "u"
+  },
+  "97": {
+   "v": "m"
+  },
+  "99": {
+   "v": "b"
+  },
+  "L": {
+   "v": "e"
+  },
+  "Lj": {
+   "v": "a"
+  },
+  "R": {
+   "v": "t"
+  },
+  "f": {
+   "v": "t"
+  },
+  "g": {
+   "v": "c"
+  },
+  "gL": {
+   "v": "p"
+  },
+  "gLk": {
+   "v": "d"
+  },
+  "gLoh": {
+   "v": "o"
+  },
+  "h": {
+   "v": "u"
+  },
+  "k": {
+   "v": "a"
+  },
+  "m": {
+   "v": "d"
+  },
+  "n": {
+   "v": "l"
+  },
+  "n2": {
+   "v": "a"
+  },
+  "n3": {
+   "v": "g"
+  },
+  "nou": {
+   "v": "r"
+  },
+  "u": {
+   "v": "l"
+  },
+  "v": {
+   "v": "r"
+  },
+  "y": {
+   "v": "n"
+  }
+ }
+}

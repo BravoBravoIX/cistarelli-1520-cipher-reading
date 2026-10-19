@@ -1,0 +1,27 @@
+# Alfonso Cistarelli (Eger) to Ippolito I d'Este, 25 July 1520; Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137)
+# Signs as read, version 0.1 (19 October 2026): one manuscript line per row: line number, a tab, the items. Cipher signs: two-digit groups, lone digits and letter signs, as cut by us (the scribe writes the digits without spaces). Clear Italian of the letter in [brackets], read by eye. The lone sign written like 15 between clear words is the clear abbreviation et and is written as et inside the clear text. Nine image-checked edits applied (corrections.json).
+1	[Circha ala parte de li scrive et so li dua Aluise et potendo trovare et]
+2	25 55 0 20 25 15 86 65 10 45 70 20 96 55 45 05 55 u 25 15 f 70 nou 25 86 gLk 86 n [li signori]
+3	80 96 86 65 f k 90 70 6 2 86 20 25 n3 55 45 75 70 96 25 85 45 86 0 9 7 10 96 85 90 86 95 25
+4	84 86 15 40 25 f 06 5 75 70 84 R k 80 96 86 65 95 45 25 45 65 15 95 gLoh 20 96 15 86 f 70 Lj
+5	[dicho che al presente] 60 45 85 45 95 h 70 96 2 45 65 60 86 y 0 20 96 15 86 95 45 n 96 86 60 45
+6	15 45 86 20 5 f 70 65 0 95 86 55 45 80 96 86 u 5 96 70 55 0 6 2 86 90 96 25 90 95 86 30 5 v 85 k
+7	15 86 65 10 45 k 95 25 45 65 70 85 2 [mi ho seguitato havendo visto quanto la]
+8	[mi scrive et su] 20 25 15 70 65 25 85 80 h 0 86 96 25 35 0 y 95 70 g'oh
+9	20 96 15 86 95 45 60 5 u 0 15 [quanto la mi succedesse non potria subito] 25 86 25 k 95 25
+10	55 45 20 96 86 60 5 u 45 86 60 86 x 5 u 25 90 25 60 15 85 0 g 25 55 45 20 86 85 45 k [non si cola]
+11	[pero restante de tor] 55 25 95 f 0 85 25 75 0 85 55 45 20 96 86 60 45 u 5 k [y ch d m]
+12	[Tutti venir] 90 96 55 25 45 65 f h 86 20 25 45 u 75 85 25 15 45 70 gL 0 85 80 96 86 65 95 70
+13	90 25 15 70 95 0 85 45 k 95 70 85 0 55 45 20 96 15 86 95 45 0 70 85 70 20 45 15 2 n 86 75 45 65 15 45
+14	n 70 20 25 97 0 45 65 9 9 2 90 25 85 45 86 10 25 65 95 70 55 f 5 [gli al presente non se trovano]
+15	L 60 86 65 15 40 70 20 25 n2 20 25 97 0 84 15 96 65 30 86 95 45 15 k 84 86 55 2 30 45 25 85 86
+16	g 86 90 k f 86 05 25 30 0 15 45 15 86 60 10 45 86 85 0 15 45 85 n k 20 96 86 60 45 55 5 96 5 45 80 96 86
+17	55 45 75 0 85 60 25 35 45 70 20 25 60 25 90 45 0 85 0 86 65 95 70 y 5 2 96 25 65 0 15 45 86 65 2 60 45
+18	15 70 90 90 95 2 85 y 70 gL 5 65 m 45 15 25 y 95 70 20 65 20 25 97 0 84 60 25 99 70 55 45 10 96 86 55 45
+19	90 70 86 75 85 0 90 70 20 45 60 25 84 75 70 85 95 86 h 2 55 45 [piacendo a dio] 86 55 k 96 25 65 95
+20	95 86 60 45 k 84 80 96 0 90 95 45 86 55 95 85 45 70 86 95 25 85 45 86 k 65 15 40 25 15 86 65 10 45
+21	86 95 5 [se non fusse venuto le littere sue ma potendossi fare quia] 20 25 15 86 65 10 45 70
+22	0 86 90 g k 5 60 25 35 55 45 70 [et quella lo farei ma non vedi pero non si potendo fare]
+23	[quella via] 65 70 y 90 25 75 70 95 0 85 45 88 y 2 gL 70 45 15 86 y 10 45 96 85 25 90 25 65 70 y
+24	86 80 96 25 90 95 k 86 55 95 85 86 30 45 0 85 k 95 45 30 86 15 k 86 55 45 70 95 2 20 25 90 25 95
+25	0 65 10 85 0 [io bisogna habia subito risposta di quanto se havera a fare]

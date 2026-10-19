@@ -1,0 +1,90 @@
+{
+ "how": "Known-answer twins: 640 letters of held-out period Italian (never in the language model's training text), enciphered homophonically with 51 cipher signs like this letter, then a share of the cipher signs replaced by other signs drawn by frequency (simulated misreads), and attacked the same way as the letter (homophonic annealing from random starts, 400,000 iterations x 48 restarts) but without clear-text context. letters_right = share of letters decoded correctly. Run 19 October 2026.",
+ "compare": "The letter's whole-stream decode scores 3.5 bits per letter (controls.json, whole_stream_decodes) with the clear text as context, which the twins do not have; the comparison is rough.",
+ "runs": [
+  {
+   "seed": 1,
+   "misread_share": 0.0,
+   "symbols": 51,
+   "bits_per_letter": 2.533,
+   "letters_right": 1.0
+  },
+  {
+   "seed": 2,
+   "misread_share": 0.0,
+   "symbols": 51,
+   "bits_per_letter": 2.528,
+   "letters_right": 1.0
+  },
+  {
+   "seed": 3,
+   "misread_share": 0.0,
+   "symbols": 51,
+   "bits_per_letter": 2.602,
+   "letters_right": 1.0
+  },
+  {
+   "seed": 1,
+   "misread_share": 0.1,
+   "symbols": 51,
+   "bits_per_letter": 3.333,
+   "letters_right": 0.914
+  },
+  {
+   "seed": 2,
+   "misread_share": 0.1,
+   "symbols": 51,
+   "bits_per_letter": 3.256,
+   "letters_right": 0.938
+  },
+  {
+   "seed": 3,
+   "misread_share": 0.1,
+   "symbols": 50,
+   "bits_per_letter": 3.728,
+   "letters_right": 0.78
+  },
+  {
+   "seed": 1,
+   "misread_share": 0.15,
+   "symbols": 51,
+   "bits_per_letter": 3.798,
+   "letters_right": 0.823
+  },
+  {
+   "seed": 2,
+   "misread_share": 0.15,
+   "symbols": 51,
+   "bits_per_letter": 3.637,
+   "letters_right": 0.853
+  },
+  {
+   "seed": 3,
+   "misread_share": 0.15,
+   "symbols": 50,
+   "bits_per_letter": 3.916,
+   "letters_right": 0.438
+  },
+  {
+   "seed": 1,
+   "misread_share": 0.2,
+   "symbols": 51,
+   "bits_per_letter": 3.918,
+   "letters_right": 0.622
+  },
+  {
+   "seed": 2,
+   "misread_share": 0.2,
+   "symbols": 51,
+   "bits_per_letter": 3.939,
+   "letters_right": 0.203
+  },
+  {
+   "seed": 3,
+   "misread_share": 0.2,
+   "symbols": 51,
+   "bits_per_letter": 3.915,
+   "letters_right": 0.202
+  }
+ ]
+}

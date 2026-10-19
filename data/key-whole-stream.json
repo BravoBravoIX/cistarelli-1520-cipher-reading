@@ -1,0 +1,162 @@
+{
+ "format": "substitution-key/1",
+ "letter": "Alfonso Cistarelli (Eger) to Ippolito I d'Este, 25 July 1520; Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137)",
+ "key": "whole-stream",
+ "note": "Homophonic key recovered from random starts by simulated annealing on the whole stream (seed 1, period Italian character model, clear text of the letter as context). The key of the reading. Not judged by the verifier; see key-fit-only.json.",
+ "plaintext_alphabet": "abcdefghilmnopqrstuxz (u also for v; i also for j)",
+ "table": {
+  "0": {
+   "v": "e"
+  },
+  "05": {
+   "v": "s"
+  },
+  "06": {
+   "v": "t"
+  },
+  "10": {
+   "v": "g"
+  },
+  "15": {
+   "v": "c"
+  },
+  "2": {
+   "v": "o"
+  },
+  "20": {
+   "v": "d"
+  },
+  "25": {
+   "v": "e"
+  },
+  "30": {
+   "v": "f"
+  },
+  "35": {
+   "v": "g"
+  },
+  "40": {
+   "v": "h"
+  },
+  "45": {
+   "v": "i"
+  },
+  "5": {
+   "v": "i"
+  },
+  "55": {
+   "v": "l"
+  },
+  "6": {
+   "v": "n"
+  },
+  "60": {
+   "v": "m"
+  },
+  "65": {
+   "v": "n"
+  },
+  "7": {
+   "v": "l"
+  },
+  "70": {
+   "v": "o"
+  },
+  "75": {
+   "v": "p"
+  },
+  "80": {
+   "v": "q"
+  },
+  "84": {
+   "v": "r"
+  },
+  "85": {
+   "v": "r"
+  },
+  "86": {
+   "v": "a"
+  },
+  "88": {
+   "v": "a"
+  },
+  "9": {
+   "v": "i"
+  },
+  "90": {
+   "v": "s"
+  },
+  "95": {
+   "v": "t"
+  },
+  "96": {
+   "v": "u"
+  },
+  "97": {
+   "v": "p"
+  },
+  "99": {
+   "v": "z"
+  },
+  "L": {
+   "v": "a"
+  },
+  "Lj": {
+   "v": "e"
+  },
+  "R": {
+   "v": "t"
+  },
+  "f": {
+   "v": "t"
+  },
+  "g": {
+   "v": "s"
+  },
+  "g'oh": {
+   "v": "l"
+  },
+  "gL": {
+   "v": "p"
+  },
+  "gLk": {
+   "v": "u"
+  },
+  "gLoh": {
+   "v": "e"
+  },
+  "h": {
+   "v": "u"
+  },
+  "k": {
+   "v": "a"
+  },
+  "m": {
+   "v": "d"
+  },
+  "n": {
+   "v": "n"
+  },
+  "n2": {
+   "v": "l"
+  },
+  "n3": {
+   "v": "g"
+  },
+  "nou": {
+   "v": "r"
+  },
+  "u": {
+   "v": "l"
+  },
+  "v": {
+   "v": "e"
+  },
+  "x": {
+   "v": "b"
+  },
+  "y": {
+   "v": "n"
+  }
+ }
+}

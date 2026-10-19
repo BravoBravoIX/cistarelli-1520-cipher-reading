@@ -1,0 +1,78 @@
+{
+ "rule": "A change was kept only if at least 4 of the 5 Claude reader passes agreed against our reading, the change improved the decode under the key, and the image did not contradict it (each was looked at). line = row of signs.txt; col = 0-based position among the items of that row before the edits (a clear-text run counts as one item); kind sub = replace, del = delete.",
+ "random_edit_control": "see controls.json, correction_control",
+ "applied": [
+  {
+   "line": 2,
+   "col": 1,
+   "kind": "sub",
+   "old": "95",
+   "new": "55",
+   "why": "4 of 5 readers 55; the image shows a 5-shaped sign with a flat top, not a 9 (no loop with stem); decode +3.2 bits"
+  },
+  {
+   "line": 2,
+   "col": 12,
+   "kind": "sub",
+   "old": "90",
+   "new": "96",
+   "why": "image (18 Oct check and 19 Oct view): 0 with a rising stroke; reader d 96, b 9(0|6)"
+  },
+  {
+   "line": 2,
+   "col": 13,
+   "kind": "del",
+   "old": "65",
+   "new": null,
+   "why": "image: no group between 96 and 55 (18 Oct check); 4 of 5 readers; decode +9.6 bits"
+  },
+  {
+   "line": 3,
+   "col": 16,
+   "kind": "sub",
+   "old": "25",
+   "new": "75",
+   "why": "4 of 5 readers 75; image: flat-topped 7 before the 5; decode +5.6 bits"
+  },
+  {
+   "line": 6,
+   "col": 0,
+   "kind": "sub",
+   "old": "55",
+   "new": "15",
+   "why": "4 of 5 readers 15; image: a plain stroke then 5; decode +2.1 bits"
+  },
+  {
+   "line": 11,
+   "col": 8,
+   "kind": "del",
+   "old": "5",
+   "new": null,
+   "why": "5 of 5 readers have no lone 5 between 25 and 75; decode +2.5 bits; image: no separate 5 seen"
+  },
+  {
+   "line": 12,
+   "col": 1,
+   "kind": "del",
+   "old": "20",
+   "new": null,
+   "why": "5 of 5 readers: cipher starts with 90 after the clear words; image: the clear word ends in -rro, then 90; decode +13.0 bits"
+  },
+  {
+   "line": 13,
+   "col": 11,
+   "kind": "sub",
+   "old": "55",
+   "new": "85",
+   "why": "5 of 5 readers 85; image: the first sign is the heavy 8 form; decode +3.2 bits"
+  },
+  {
+   "line": 20,
+   "col": 8,
+   "kind": "sub",
+   "old": "60",
+   "new": "0",
+   "why": "5 of 5 readers 96 0 90; image: one 6 (the stroke belongs to 96), then a plain 0; decode +17.2 bits"
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "letter": "Alfonso Cistarelli (Eger) to Ippolito I d'Este, 25 July 1520; Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137)",
+ "verifier": {
+  "version": "1.0.0",
+  "thresholds": "fixed before this letter was attempted",
+  "judged_at": "2026-10-19T09:14:47+00:00",
+  "verdict": "partial_reading",
+  "reasons": [
+   "language did not pass"
+  ],
+  "attack": {
+   "method": "homophonic simulated annealing from random starts",
+   "seed": 101,
+   "params": {
+    "heldout_excluded": [
+     184,
+     313
+    ],
+    "heldout_mode": "block",
+    "iterations": 400000,
+    "lang": "it",
+    "restarts": 48
+   },
+   "score": -1800.5599811919324,
+   "elapsed_s": 32.222
+  },
+  "limits": {
+   "language_bits_max": 3.92,
+   "language_dict_cover_min": 0.36,
+   "null_gain_max": 0.01,
+   "heldout_bits_rise_max": 0.4,
+   "heldout_dict_drop_max": 0.15,
+   "controls_dict_margin": 0.15,
+   "controls_bits_margin": 0.3,
+   "stability_min": 0.8
+  },
+  "checks": {
+   "controls": {
+    "attack_controls": true,
+    "best_control": 0.3327,
+    "best_control_bits": 3.9389,
+    "bits_margin": 0.3,
+    "control_passes_language": 0,
+    "hypotheses_tested": 10,
+    "known_answer": {
+     "case": "synthetic homophonic cipher, Italian, 514 letters, no noise",
+     "char_similarity": 0.9961,
+     "status": "solved"
+    },
+    "margin": 0.15,
+    "p_holm": 1.22e-06,
+    "p_holm_bits": 4.31e-06,
+    "pass": true,
+    "real": 0.4358,
+    "real_bits": 3.6175,
+    "separates_by": [
+     "bits"
+    ],
+    "short_text_doubled": false,
+    "types": {
+     "block_shuffled": {
+      "max": 0.3327,
+      "mean": 0.2775,
+      "mean_bits": 4.0364,
+      "min_bits": 3.9389,
+      "n": 20,
+      "p_empirical": 0.04762,
+      "p_normal": 1.22e-07,
+      "p_normal_bits": 9.4e-11
+     },
+     "gibberish": {
+      "max": 0.2685,
+      "mean": 0.2282,
+      "mean_bits": 4.3835,
+      "min_bits": 4.3105,
+      "n": 20,
+      "p_empirical": 0.04762,
+      "p_normal": 1.4e-14,
+      "p_normal_bits": 8.21e-43
+     },
+     "permuted_key": {
+      "max": 0.1148,
+      "mean": 0.047,
+      "mean_bits": 7.9964,
+      "min_bits": 6.0308,
+      "n": 100,
+      "p_empirical": 0.0099,
+      "p_normal": 1.97e-49,
+      "p_normal_bits": 4.31e-07
+     },
+     "shuffled": {
+      "max": 0.3035,
+      "mean": 0.2313,
+      "mean_bits": 4.3074,
+      "min_bits": 4.2263,
+      "n": 20,
+      "p_empirical": 0.04762,
+      "p_normal": 1.38e-08,
+      "p_normal_bits": 8.03e-36
+     }
+    }
+   },
+   "coverage": {
+    "partial": true,
+    "pass": true,
+    "token_coverage": 0.9969
+   },
+   "heldout": {
+    "bits": 3.7413,
+    "bits_rise": 0.1238,
+    "dict_cov": 0.2756,
+    "drop": 0.1602,
+    "kind": "held-out block",
+    "letters": 127,
+    "pass": true,
+    "tokens": 129
+   },
+   "language": {
+    "bits": 3.6175,
+    "dict_cov": 0.4358,
+    "freedom": 0.4371,
+    "key_class": "letters",
+    "letters": 514,
+    "null_test": {
+     "applicable": true,
+     "gain_symbol_count": 4,
+     "max_gain": 0.0248,
+     "symbol_rank_checked": 30
+    },
+    "nulls_suspected": true,
+    "partial": true,
+    "pass": false,
+    "thresholds": {
+     "bits_max": 3.92,
+     "bits_partial": 3.92,
+     "dict_cov_min": 0.36,
+     "dict_cov_partial": 0.36
+    }
+   },
+   "mechanical": {
+    "pass": true,
+    "schema_errors": []
+   },
+   "reencryption": {
+    "explained": 0,
+    "mismatches": 0,
+    "pass": true
+   },
+   "stability": {
+    "agreement": [
+     1.0,
+     1.0
+    ],
+    "pass": true
+   }
+  }
+ },
+ "correction_control": {
+  "how": "128 places where at least 3 of the 5 reader passes agree against our reading, each scored as a single change under the key; the same number of random changes scored the same way",
+  "reader_backed": {
+   "proposals": 128,
+   "gaining": 21,
+   "total_gain_bits": 127.3
+  },
+  "random": {
+   "proposals": 128,
+   "gaining": 21,
+   "total_gain_bits": 69.8
+  }
+ },
+ "whole_stream_decodes": {
+  "how": "each stream attacked on its own, whole stream, homophonic annealing from random starts, clear text as context; bits per letter of the cipher letters under a period Italian character model (lower = more Italian)",
+  "runs": [
+   {
+    "stream": "five-pass vote",
+    "seed": 1,
+    "shuffled": false,
+    "tokens": 690,
+    "bits_per_letter": 4.114
+   },
+   {
+    "stream": "five-pass vote plus our reading",
+    "seed": 1,
+    "shuffled": false,
+    "tokens": 677,
+    "bits_per_letter": 4.014
+   },
+   {
+    "stream": "our reading before the nine edits",
+    "seed": 1,
+    "shuffled": false,
+    "tokens": 646,
+    "bits_per_letter": 3.593
+   },
+   {
+    "stream": "our reading before the nine edits",
+    "seed": 2,
+    "shuffled": false,
+    "tokens": 646,
+    "bits_per_letter": 3.593
+   },
+   {
+    "stream": "our reading before the nine edits",
+    "seed": 3,
+    "shuffled": false,
+    "tokens": 646,
+    "bits_per_letter": 3.593
+   },
+   {
+    "stream": "our reading v0.1 (signs.txt)",
+    "seed": 1,
+    "shuffled": false,
+    "tokens": 643,
+    "bits_per_letter": 3.5
+   },
+   {
+    "stream": "our reading v0.1 (signs.txt)",
+    "seed": 1,
+    "shuffled": true,
+    "tokens": 643,
+    "bits_per_letter": 4.345
+   },
+   {
+    "stream": "round-2 trial (not kept)",
+    "seed": 1,
+    "shuffled": false,
+    "tokens": 643,
+    "bits_per_letter": 3.522
+   }
+  ]
+ },
+ "reader_agreement": {
+  "five_passes_pairwise": {
+   "a-b": 0.8266,
+   "a-c": 0.8202,
+   "a-d": 0.8386,
+   "a-e": 0.8292,
+   "b-c": 0.8223,
+   "b-d": 0.8395,
+   "b-e": 0.8193,
+   "c-d": 0.8311,
+   "c-e": 0.8035,
+   "d-e": 0.8252
+  },
+  "five_passes_all_agree_share": 0.737,
+  "with_our_reading_pairwise": {
+   "a-ours": 0.8076,
+   "b-ours": 0.838,
+   "c-ours": 0.7935,
+   "d-ours": 0.8451,
+   "e-ours": 0.807
+  }
+ }
+}

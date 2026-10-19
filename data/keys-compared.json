@@ -1,0 +1,81 @@
+{
+ "differ_on": 19,
+ "signs": {
+  "05": {
+   "whole_stream": "s",
+   "fit_only": "i"
+  },
+  "06": {
+   "whole_stream": "t",
+   "fit_only": "i"
+  },
+  "20": {
+   "whole_stream": "d",
+   "fit_only": "s"
+  },
+  "35": {
+   "whole_stream": "g",
+   "fit_only": "r"
+  },
+  "5": {
+   "whole_stream": "i",
+   "fit_only": "e"
+  },
+  "6": {
+   "whole_stream": "n",
+   "fit_only": "l"
+  },
+  "60": {
+   "whole_stream": "m",
+   "fit_only": "d"
+  },
+  "97": {
+   "whole_stream": "p",
+   "fit_only": "m"
+  },
+  "99": {
+   "whole_stream": "z",
+   "fit_only": "b"
+  },
+  "L": {
+   "whole_stream": "a",
+   "fit_only": "e"
+  },
+  "Lj": {
+   "whole_stream": "e",
+   "fit_only": "a"
+  },
+  "g": {
+   "whole_stream": "s",
+   "fit_only": "c"
+  },
+  "g'oh": {
+   "whole_stream": "l",
+   "fit_only": null
+  },
+  "gLk": {
+   "whole_stream": "u",
+   "fit_only": "d"
+  },
+  "gLoh": {
+   "whole_stream": "e",
+   "fit_only": "o"
+  },
+  "n": {
+   "whole_stream": "n",
+   "fit_only": "l"
+  },
+  "n2": {
+   "whole_stream": "l",
+   "fit_only": "a"
+  },
+  "v": {
+   "whole_stream": "e",
+   "fit_only": "r"
+  },
+  "x": {
+   "whole_stream": "b",
+   "fit_only": null
+  }
+ }
+}
