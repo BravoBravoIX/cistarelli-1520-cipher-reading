@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The Cistarelli cipher letter of 25 July 1520: a first connected reading"
+authors:
+  - family-names: Burford
+    given-names: Brett
+version: "0.1"
+doi: 10.5281/zenodo.23471133
+date-released: 2026-10-19
+repository-code: "https://github.com/BravoBravoIX/cistarelli-1520-cipher-reading"
