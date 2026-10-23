@@ -40,7 +40,7 @@ Daniel Bourdeau, Cyphersolver, "Alfonso Cistarelli, Eger, 25 July 1520" (catalog
 
 ### 18 October 2026
 
-- All pages of the letter (Vestigia 1904) looked at at full size: no decipherment, gloss or interlinear reading.
+- Claude looked at previews of the letter's pages in Vestigia 1904 (images V1904-2 to -4) and at enlarged bands of the cipher page: no decipherment, gloss or interlinear reading seen.
 - Cistarelli's other letters of 1520 on Vestigia (records 1900, 1901, 1905–1908): all in clear Italian, no cipher.
 - No clear copy, key sheet or printed edition found.
 - Tomokiyo's list of unsolved ciphers: this letter is not listed.

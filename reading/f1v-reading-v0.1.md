@@ -4,7 +4,7 @@
 
 Three layers, kept apart:
 
-1. **Literal.** Exactly what the key gives, letter for letter, nothing added or removed. It is the output of `decode/decode.py data/key-whole-stream.json data/signs.txt --by-line` (file `data/plaintext-whole-stream-by-line.txt`). Cipher letters in lower case; the clear Italian written in the letter, read by eye, in capitals and brackets. The key uses one letter *u* for *u* and *v*, and *i* for *i* and *j*.
+1. **Literal.** Exactly what the key gives, letter for letter, nothing added or removed. It is the output of `decode/decode.py data/key-whole-stream.json data/signs.txt --by-line` (file `data/plaintext-whole-stream-by-line.txt`). Cipher letters in lower case; the clear Italian written in the letter, read from the photograph by Claude, in capitals and brackets. The key uses one letter *u* for *u* and *v*, and *i* for *i* and *j*.
 2. **Word split (editorial).** The literal cut into words by Claude (Anthropic), with `[?]` where no word is seen, *(x)* where a letter is probably misread, and *[x]* where a letter is supplied. **This is a proposal by us, not the literal text**, and no palaeographer has checked it.
 3. **English (translation).** A translation of the readable stretches of the word split only, by Claude, labelled as translation.
 
@@ -40,7 +40,7 @@ The literal uses the **whole-stream key** (`data/key-whole-stream.json`). The ke
 | 24 | aquestaaltrafieratifacaaliotodeset | a questa altra fiera [?] |
 | 25 | engre [IO BISOGNA HABIA SUBITO RISPOSTA DI QUANTO SE HAVERA A FARE] | [?] io bisogna habia subito risposta di quanto se havera a fare |
 
-The clear Italian is our reading by eye of a small photograph and is itself uncertain in places (line 11 ends in four signs we could not read as words).
+The clear Italian was read from a small photograph by Claude and is itself uncertain in places (line 11 ends in four signs we could not read as words).
 
 ## 3. English (translation of the readable stretches only; Claude; not literal text)
 

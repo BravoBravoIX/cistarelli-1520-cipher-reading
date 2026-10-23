@@ -8,9 +8,9 @@ The cipher is on f. 1v of the letter (the verso of the first leaf): 24 lines of 
 
 Only one photograph is public. Vestigia (record 1904) serves two sets of images of this letter: the Hungarian National Archives set (`HU_MNL_OL_X_10891_DF_294959_0001`–`0004`) and a black-and-white set (`1397657007`, `-2`, `-3`, `-4`). For the cipher page the two are **the same photograph** at two JPEG qualities (mean grey difference 1.4 levels, correlation 0.9996). Both are served at 3072 × 4096 pixels; the original files are not served. We used `HU_MNL_OL_X_10891_DF_294959_0002.JPG` as served on 19 October 2026 (SHA-256 `aaef51fea59183a617b58769a08b2c9255a5669685fc640b7690fbc0e1b67727`). On it the writing is about **26 pixels high** and the lines are 93 pixels apart. This single, small photograph is the limit of the reading.
 
-## Step 1: our transcription, by eye
+## Step 1: our transcription (read by Claude)
 
-The page was cut into enlarged windows and read sign by sign by eye (by Claude in a working session, 18 October 2026, not by a batch reader). The scribe writes the digits of a line without spaces; runs were cut into groups ending in 0, 5 or 6 where possible, else into single digits. Letter signs were named by their look. The scribe's 0 and 6 are alike (a 6 is a 0 with a rising stroke), and this is the commonest doubt.
+The page was cut into enlarged windows and read sign by sign by Claude in a working session on 18 October 2026, one pass, not by a batch reader through the API. The scribe writes the digits of a line without spaces; runs were cut into groups ending in 0, 5 or 6 where possible, else into single digits. Letter signs were named by their look. The scribe's 0 and 6 are alike (a 6 is a 0 with a rising stroke), and this is the commonest doubt.
 
 On the image, the lone "15" that stands between clear words (three times on line 1, once on line 8) is the crossed abbreviation *et* of the clear text, not a cipher group; it is written `et` in the clear text.
 
@@ -20,13 +20,13 @@ A sign sheet of 18 examples cut from this page was made. Each line was straighte
 
 The passes agree with one another on 0.80–0.84 of aligned signs and with our reading on 0.79–0.85; all five agree on 0.737 of places. No text of the page is known, so no accuracy per sign can be measured; the passes share one model and one image, so their errors are not independent.
 
-**The voted reading decodes worse than our reading by eye** (4.11 bits per letter against 3.59 before the edits; lower is more like Italian). So the vote was not used as a reading, only as a source of hints for Step 3.
+**The voted reading decodes worse than our transcription** (4.11 bits per letter against 3.59 before the edits; lower is more like Italian). So the vote was not used as a reading, only as a source of hints for Step 3.
 
 ## Step 3: corrections, only where the image supports them, with a random-edit control
 
 Code listed the 128 places where at least three of the five passes agree against our reading, and scored each single change under the current key. 21 of them improve the decode, by 127 bits in all. **Control:** 128 random changes scored the same way also give 21 improving changes, worth 70 bits. A gain in the decode is therefore not evidence by itself: a key fitted to a noisy text rewards some random changes too.
 
-A change was kept only if at least four of five passes agreed on it, it improved the decode, **and the image, looked at, did not contradict it**. Nine were kept (`../data/corrections.json`), among them two deletions of groups the first reading had added. The largest-gain proposal was rejected: the readers drop one of two "90 90" on line 18, and the image plainly shows both.
+A change was kept only if at least four of five passes agreed on it, it improved the decode, **and Claude, checking it against the image, found nothing against it**. Nine were kept (`../data/corrections.json`), among them two deletions of groups the first reading had added. The largest-gain proposal was rejected: the readers drop one of two "90 90" on line 18, and the image plainly shows both.
 
 A second round re-read the 28 worst-decoded short stretches at 4x, three times blind. The readers agreed against us on 60 places, but under the key nearly all of those changes made the decode worse (for example 70 read as 10, three times), and all three dropped the same repeated group on line 18. None was kept.
 

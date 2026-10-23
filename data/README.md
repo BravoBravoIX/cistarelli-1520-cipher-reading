@@ -4,7 +4,7 @@ The cipher passage on f. 1v of Alfonso Cistarelli's letter to Ippolito I d'Este,
 
 | file | contents |
 |---|---|
-| `signs.txt` | The signs as read, one manuscript line per row: line number, a tab, the items separated by spaces. Cipher signs are two-digit groups (`86`), lone digits (`0`), a few groups with a leading zero (`05`, `06`) and letter signs named by their look (`k`, `f`, `u`, `y`, `n`, `h`, `g`, `L`, `R`, `v`, `x`, `m`, and compound shapes such as `gL`, `gLk`, `gLoh`, `g'oh`, `Lj`, `n2`, `n3`, `nou`). The scribe writes the digits without spaces; the cut into groups is ours. Clear Italian written in the letter is in `[brackets]`, as we read it by eye. 643 cipher signs, 51 distinct |
+| `signs.txt` | The signs as read, one manuscript line per row: line number, a tab, the items separated by spaces. Cipher signs are two-digit groups (`86`), lone digits (`0`), a few groups with a leading zero (`05`, `06`) and letter signs named by their look (`k`, `f`, `u`, `y`, `n`, `h`, `g`, `L`, `R`, `v`, `x`, `m`, and compound shapes such as `gL`, `gLk`, `gLoh`, `g'oh`, `Lj`, `n2`, `n3`, `nou`). The scribe writes the digits without spaces; the cut into groups is ours. Clear Italian written in the letter is in `[brackets]`, as read from the photograph by Claude. 643 cipher signs, 51 distinct |
 | `key-whole-stream.json` | The key of the reading: each sign's letter, recovered by annealing on the whole stream |
 | `key-fit-only.json` | The key the verifier judged: the same method with the held-out block (lines 8–13) left out of the fit. It gives no value to `g'oh` and `x` |
 | `keys-compared.json` | The 19 signs on which the two keys differ |

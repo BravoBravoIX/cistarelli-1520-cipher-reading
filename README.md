@@ -4,7 +4,7 @@
 
 **Alfonso Cistarelli, at Eger, to Cardinal Ippolito I d'Este, 25 July 1520.** Archivio di Stato di Modena, Ambasciatori, Ungheria b. 4, Cistarelli no. 3, f. 1v (Vestigia 1904; DECODE R1137; Hungarian National Archives DF 294959). A letter in Italian with a passage of 24 lines in a cipher of two-digit figures and letter signs, set inside clear text.
 
-> **First connected reading, version 0.1 (19 October 2026), partial.** The key was recovered from the ciphertext alone (no key from the time is known). Daniel Bourdeau's earlier ciphertext-only attempt gave a partial key and phrase fragments; our key, found independently, agrees with his on 16 of his 20 values. What is new here is the connected reading of the passage, its sense, and the verifier check.
+> **First connected reading, version 0.1 (19 October 2026), partial.** Repository version 0.1.1 (21 October 2026) is a documentation update; the reading is unchanged. The key was recovered from the ciphertext alone (no key from the time is known). Daniel Bourdeau's earlier ciphertext-only attempt gave a partial key and phrase fragments; our key, found independently, agrees with his on 16 of his 20 values. What is new here is the connected reading of the passage, its sense, and the verifier check.
 >
 > No key and no decipherment of this cipher is known, from the time or since. The key here was recovered from the cipher text alone. About a tenth to a seventh of the cipher groups are probably still misread, and the reading is partial: some stretches give Italian words and phrases, others do not yet read.
 >
@@ -21,7 +21,7 @@ The words behind it recur under one key: *ducati* three times, *li dua milia* (t
 The full reading, line by line, is in [reading/f1v-reading-v0.1.md](reading/f1v-reading-v0.1.md), in three layers kept apart:
 
 1. **Italian literal:** exactly what the key gives, letter for letter (cipher in lower case; the letter's own clear Italian in capitals and brackets). This is the reading.
-2. **Word split (editorial):** the literal cut into words, with gaps and probable misreads marked. A proposal by us, not the literal text.
+2. **Word split (editorial):** the literal cut into words, with gaps and probable misreads marked. A proposal by Claude, not the literal text.
 3. **English (translation):** of the readable stretches only, by Claude. A translation, not the text.
 
 A sample, lines 16–17 and 23:
@@ -36,9 +36,9 @@ A sample, lines 16–17 and 23:
 
 ## How it was done, in plain words
 
-1. **Our own transcription.** The only photograph (see below) was read sign by sign by eye, in enlarged windows. The digits are written without spaces; the cut into groups is ours. A lone "15" between clear words is the clear abbreviation *et* (seen on the image), not cipher.
-2. **Five Claude passes, voted.** Claude (Anthropic, model Opus 5.5) read the signs five times, with different cuts and enlargements and a sheet of sign examples cut from this page; the five readings were aligned and voted. The vote **decodes worse** than our reading by eye, so it was used for hints only.
-3. **Corrections checked on the image, with a control.** Where at least four of the five passes agreed against us and the change improved the decode, the image was looked at; nine changes were kept. Random changes also improve a decode (70 bits against 127 for the reader-backed ones, over 128 changes each), so a decode gain alone was never taken as evidence.
+1. **Our own transcription.** The only photograph (see below) was read sign by sign, in enlarged windows, by Claude, in one pass. The digits are written without spaces; the cut into groups is ours. A lone "15" between clear words is the clear abbreviation *et* (seen on the image), not cipher.
+2. **Five Claude passes, voted.** Claude (Anthropic, model Opus 5.5) read the signs five times, with different cuts and enlargements and a sheet of sign examples cut from this page; the five readings were aligned and voted. The vote **decodes worse** than our transcription, so it was used for hints only.
+3. **Corrections checked on the image, with a control.** Where at least four of the five passes agreed against us and the change improved the decode, Claude checked the change against the image; nine changes were kept. Random changes also improve a decode (70 bits against 127 for the reader-backed ones, over 128 changes each), so a decode gain alone was never taken as evidence.
 4. **Key from random starts.** The signs were attacked as a homophonic substitution (one letter, several signs) by simulated annealing from random keys, on the CPU and with a batched annealer written for the GPU, scored by language models built from period Italian texts. The clear Italian around the cipher was kept in place as context, so the clear words act as cribs. Runs from different seeds reach the same key score.
 5. **A verifier with fixed thresholds.** Our verifier's thresholds were fixed before this letter was attempted. Its verdict on the held-out key is **`partial_reading`** (the third of five rungs: characterised, key fragment, partial reading, candidate solved, solved):
    - **held-out text passes:** lines 8–13, left out of the fit, read as well as the rest (bits per letter rise 0.12; limit 0.40);
@@ -47,6 +47,8 @@ A sample, lines 16–17 and 23:
    - **language fails on one point only, the null test:** blanking the rare letter sign *n* (4 times in the fitted part) improves the score by 0.025 bits per letter (limit 0.01). *n* may be a code sign (for example *non*) or misread; we have not reinterpreted it after seeing the result.
 
 Details: [method/README.md](method/README.md). Where every number comes from: [NUMBERS.md](NUMBERS.md).
+
+**How AI was used.** Our transcription of the signs and the clear Italian were read from enlarged windows of the photograph by Claude, in one pass. Claude (Anthropic, model Opus 5.5) then read the signs five more times, combined by vote; the passes agree with one another on 80–84 % of aligned signs and with our transcription on 79–85 % (`data/controls.json`). This page has no known text; its decode sits between known-answer twins with 10 % and 15 % of groups misread (see below). Claude also checked each correction against the image, cut the literal into words and translated the readable stretches; the English is a translation by Claude, kept separate from the literal text. An AI coding assistant (Claude Code) was used. The decoding reruns without any AI service; the transcription is stored as data (`data/signs.txt`).
 
 ## How much is still wrong, and why
 
@@ -102,7 +104,7 @@ Searched on 18 and 19 October 2026, and repeated on 19 October 2026 (09:50–09:
 - **Daniel Bourdeau**, Cyphersolver, for the catalogue entry, the first partial key and fragments of this cipher, and the judgement that the photograph is the limit.
 - **Archivio di Stato di Modena**, which holds the letter, and the **Vestigia Research Group** (Pázmány Péter Catholic University) and the **Magyar Nemzeti Levéltár**, for the photographs and the record.
 - **DECODE** (record R1137), for the catalogue entry.
-- **Anthropic's Claude** (model Opus 5.5) was used as the sign reader, for the transcription by eye, the word split and the English translation.
+- **Anthropic's Claude** read the signs (our transcription, and five passes with model Opus 5.5), checked the corrections against the image, and made the word split and the English translation; see "How AI was used" above.
 
 Prepared by Brett Burford, October 2026. Corrections and better images are welcome.
 
